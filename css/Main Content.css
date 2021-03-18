@@ -8,12 +8,18 @@ body{
 
 #Logo{
     float: left;
-    width: 50%;
+    width: 55%;
     padding-left: 4%;
     padding-right: 4%;
 }
 #navigation{
+    Width:  45%;
     float:right;
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-size: 20;
 }
+#h2{ float: left;
+    
+}
+    
