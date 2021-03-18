@@ -1,0 +1,10 @@
+header{
+    color: rgb(168, 224, 85);
+    background-color: palevioletred;
+    clear: both;
+    width: auto;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0%;
+    font-weight: bold;
+}

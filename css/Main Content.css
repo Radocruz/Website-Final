@@ -6,53 +6,6 @@ body{
 }
 
 
-
-header{
-    color: rgb(168, 224, 85);
-    background-color: palevioletred;
-    clear: both;
-    width: auto;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 0%;
-    font-weight: bold;
-}
-
-h1{
-    font-family: 'Shippori Mincho B1', serif;
-    font-size: 24pt;
-}
-
-footer{
-    background-color: coral;
-    margin: 0%;
-    clear: both;
-    width: auto;
-    box-sizing: border-box;
-    text-align: left;
-    padding: 2%;
-}
-
-#sidebar{
-    float: left;
-    background-color: green;
-    box-sizing: border-box;
-    margin: auto;
-    width: 33%;
-    padding: 2%;
-    height: auto;
-}
-
-#main{
-    float: right;
-    margin: auto;
-    background-color: orange;
-    box-sizing: border-box;
-    width: 67%;
-    padding: 2%;
-    height: auto;
-}
-
 img{
     float: left;
     width: 50%;
