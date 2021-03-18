@@ -12,7 +12,8 @@ body{
     padding-left: 4%;
     padding-right: 4%;
 }
-#header{
+#navigation{
     float:right;
-    Padding: 4%;
+    padding-right: 20%;
+    padding-left: 20%;
 }
