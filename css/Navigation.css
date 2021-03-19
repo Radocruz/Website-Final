@@ -1,19 +1,15 @@
 header{
-    color: rgb(168, 224, 85);
-    background-color: palevioletred;
-    clear: both;
+    color: black;
     width: auto;
-    box-sizing: border-box;
-    text-align: center;
     margin: 0%;
     font-weight: bold;
 }
 
 .navigation_header{
-    background-color: black;
+    color: black;
 
 }
-.navigation{
+.navigation_links{
     Width:  45%;
     float:right;
     padding-right: 3%;
