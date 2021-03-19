@@ -1,23 +1,25 @@
 header{
     color: black;
     background-color: black;
-    width: 100%;
     margin: 0%;
     font-weight: bold;
-}
-
-
-.navigation_header{
-    background-color: black;
-
-}
-.navigation_links{
-    Width:  100%;
+    Width: auto;
     text-align: center;
     float:left;
     padding-right: 3%;
     padding-left: 3%;
     font-size: 20;
+}
+
+.Logo{
+    box-sizing: border-box;
+    border: 1em;
+    float: left;
+    border-color: white;
+    width: 55%;
+    padding-left:1em;
+    padding-right: 1em;
+    height: auto;
 }
 
 ul li{

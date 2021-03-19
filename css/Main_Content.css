@@ -1,20 +1,3 @@
-body{
-    font-family: 'Roboto', sans-serif;
-    background-color: white;
-}
-
-#Logo{
-    box-sizing: border-box;
-    border: 1em;
-    float: left;
-    border-color: white;
-    width: 55%;
-    padding-left:1em;
-    padding-right: 1em;
-    height: 140px;
-}
-
-
 #Team{
     Width:100%;
     box-sizing: border-box;
