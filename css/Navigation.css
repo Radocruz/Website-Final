@@ -1,12 +1,13 @@
 header{
     color: black;
+    background-color: black;
     width: auto;
     margin: 0%;
     font-weight: bold;
 }
 
 .navigation_header{
-    color: black;
+    background-color: black;
 
 }
 .navigation_links{
