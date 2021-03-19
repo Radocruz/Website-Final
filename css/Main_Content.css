@@ -9,21 +9,9 @@ body{
     float: left;
     border-color: white;
     width: 55%;
-<<<<<<< HEAD
-<<<<<<< HEAD
     padding-left:1em;
     padding-right: 1em;
     height: 140px;
-    
-
-=======
-    padding-left: 4%;
-    padding-right: 4%;
->>>>>>> 54428217f46db88c96a134b25f48902a8e2b996d
-=======
-    padding-left: 4%;
-    padding-right: 4%;
->>>>>>> 203cc9f05f12a69430bc795436113957b8d280b7
 }
 
 
@@ -31,26 +19,14 @@ body{
     Width:100%;
     box-sizing: border-box;
     height: 250px;
-    
 }
 
-<<<<<<< HEAD
-.h2{
-<<<<<<< HEAD
+
+h2{
     float: right;
     box-sizing: border-box;
     height: 200px;
-=======
-    float: left;
-    box-sizing: border-box;
->>>>>>> 54428217f46db88c96a134b25f48902a8e2b996d
-=======
-h2{
-    float: left;
-    box-sizing: border-box;
-    font-size: 20px;
->>>>>>> 203cc9f05f12a69430bc795436113957b8d280b7
-}
+
 
 #Blue{
     Width: 100%;
