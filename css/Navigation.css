@@ -9,10 +9,11 @@ header{
     font-weight: bold;
 }
 
-#navigation_header{
-    color: black;
+.navigation_header{
+    background-color: black;
+
 }
-#navigation{
+.navigation{
     Width:  45%;
     float:right;
     padding-right: 3%;
