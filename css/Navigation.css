@@ -2,13 +2,10 @@ header{
     color: black;
     background-color: black;
     margin: 0%;
-    font-weight: bold;
     Width: auto;
-    text-align: center;
     float:left;
     padding-right: 3%;
     padding-left: 3%;
-    font-size: 20;
 }
 
 .Logo{
@@ -19,9 +16,15 @@ header{
     width: 55%;
     padding-left:1em;
     padding-right: 1em;
-    height: auto;
 }
 
 ul li{
     display: inline;
+}
+
+.navigation_links{
+    font-size: 2vw;
+    float: right;
+    text-align: center;
+    font-weight: bold;
 }
