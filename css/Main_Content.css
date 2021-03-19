@@ -11,14 +11,18 @@ body{
     padding-left: 4%;
     padding-right: 4%;
 }
-#Blue{ 
-    Width 100%;
-    padding right: 5%;
-    padding left; 5%;
-}
+
+
 #Team{
     Width:100%;
 }
 
-.h2{ float: left;
+.h2{
+    float: left;
+}
+
+#Blue{
+    Width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
