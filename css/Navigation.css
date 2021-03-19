@@ -9,3 +9,10 @@ header{
     font-weight: bold;
 }
 
+#navigation{
+    Width:  45%;
+    float:right;
+    padding-right: 3%;
+    padding-left: 3%;
+    font-size: 20;
+}

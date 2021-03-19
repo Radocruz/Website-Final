@@ -5,14 +5,13 @@ body{
     padding-bottom: 2%;
 }
 
-
 #Logo{
     float: left;
     width: 55%;
     padding-left: 4%;
     padding-right: 4%;
-<<<<<<< Updated upstream
 }
+
 #navigation{
     Width:  45%;
     float:right;
@@ -20,10 +19,6 @@ body{
     padding-left: 3%;
     font-size: 20;
 }
+
 #h2{ float: left;
-    
 }
-    
-=======
-}
->>>>>>> Stashed changes
