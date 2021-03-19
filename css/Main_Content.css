@@ -22,10 +22,11 @@ body{
 }
 
 
-#About Us {
-    float: right;
+#About{
+    float:right;
     box-sizing: border-box;
     height: 200px;
+    text-align: center;
 }
 
 #Blue{
