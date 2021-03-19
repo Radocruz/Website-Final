@@ -9,6 +9,9 @@ header{
     font-weight: bold;
 }
 
+#navigation_header{
+    color: black;
+}
 #navigation{
     Width:  45%;
     float:right;
