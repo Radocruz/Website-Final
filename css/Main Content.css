@@ -12,13 +12,5 @@ body{
     padding-right: 4%;
 }
 
-#navigation{
-    Width:  45%;
-    float:right;
-    padding-right: 3%;
-    padding-left: 3%;
-    font-size: 20;
-}
-
 #h2{ float: left;
 }
