@@ -20,7 +20,8 @@ body{
 }
 
 #Blue{
-    Width: 100%;
-    padding-right: 5%;
-    padding-left: 5%;
+    Width: 97%;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em
 }
