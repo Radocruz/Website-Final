@@ -8,12 +8,12 @@ header {
   height: auto;
 }
 
-#logo {
+header #logo {
   box-sizing: border-box;
   border: 1em;
   float: left;
   border-color: white;
-  max-width:45%;
+  max-width: 45%;
   padding-left: 1px;
   padding-right: 1px;
   padding-bottom: 1px;
