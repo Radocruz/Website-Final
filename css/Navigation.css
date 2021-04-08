@@ -7,48 +7,50 @@ header {
   color: rgb(80, 171, 207);
   background-color: rgb(116, 168, 228);
   margin: 0%;
-  width: auto;
+  width: auto%;
   padding-right: 3%;
   padding-left: 3%;
   height: auto;
 }
 
 
- #Logo {
+ .Logo {
   box-sizing:border-box;
-  border: 1px;
+  border: 20px;
   float: left;
   height: 200px;
   border-color: rgb(100, 48, 93);
-  width: 400px;;
-  padding:0 20px 20px 0;
+  width: auto;;
+  padding-bottom: 20px;
+  padding-top: 20px;
 
 }
+
+
 
 .container{
   width: 200px;
   margin: auto;
 }
 
-
-
 #nav{
   font-size: 12px;
   float: right;
   width: 55%;
+  width: 600px;
   font-weight: bold;
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
   padding: 20px;
 }
 
-header #nav { text-align: right ;}
+header #nav { text-align: right ;
+list-style-type: none;}
 
-header #nav li{
-  display: inline-block;
-}
 
 header #nav li a{
-  display: inline-block;
+  display: inline;
   padding: 28px 22px;
   color: rgb(0, 0, 0);
 }
