@@ -15,21 +15,24 @@ header {
 
 
  .Logo {
+  display: inline-block;
   box-sizing:border-box;
   border: 5px;
   float: left;
-  height: 200px;
+  clear: right;
+  height: 150px;
   border-color: rgb(100, 48, 93);
   width: auto;;
   padding-bottom: 20px;
   padding-top: 20px;
+  width: 45%;
 
 }
 
 
 
 .container{
-  width: 1500px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -37,7 +40,7 @@ header {
   font-size: 12px;
   float: right;
   width: 55%;
-  width: 600px;
+  width: 150px;
   font-weight: bold;
   list-style-type: none;
   display: flex;
@@ -46,18 +49,22 @@ header {
 }
 
 header #nav { text-align: right ;
-list-style-type: none;}
+list-style-type: none;
+margin: 0px;
+padding:0px;}
+
 
 
 header #nav li a{
-  display: inline;
-  padding: 28px 22px;
+  display: inline-block;
+  padding: 0px 10px;
   color: rgb(0, 0, 0);
 }
 
 
-,col{
+.col{
   width: 100%;
+  padding:15px;
 }
 .w-33
 { 
