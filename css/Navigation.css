@@ -16,7 +16,7 @@ header {
 
  .Logo {
   box-sizing:border-box;
-  border: 20px;
+  border: 5px;
   float: left;
   height: 200px;
   border-color: rgb(100, 48, 93);
