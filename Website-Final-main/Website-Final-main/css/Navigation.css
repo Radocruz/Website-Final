@@ -1,0 +1,30 @@
+header {
+  color: black;
+  background-color: black;
+  margin: 0%;
+  width: auto;
+  float: left;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.Logo {
+  box-sizing: border-box;
+  border: 1em;
+  float: left;
+  border-color: white;
+  width: 55%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+ul li {
+  display: inline;
+}
+
+.navigation_links {
+  font-size: 2vw;
+  float: right;
+  text-align: center;
+  font-weight: bold;
+}
