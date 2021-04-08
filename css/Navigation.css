@@ -1,3 +1,8 @@
+
+
+
+
+
 header {
   color: rgb(80, 171, 207);
   background-color: rgb(116, 168, 228);
@@ -8,28 +13,24 @@ header {
   height: auto;
 }
 
-header #logo {
-  box-sizing: border-box;
+
+ #Logo {
+  box-sizing:border-box;
   border: 1px;
   float: left;
-  border-color: white;
-  width:45%;
-  padding-left: 5px;
-  padding-right: 2px;
-  padding-bottom: 2px;
+  height: 200px;
+  border-color: rgb(100, 48, 93);
+  width: 400px;;
+  padding:0 20px 20px 0;
+
 }
 
 .container{
-  width: 300px;
+  width: 200px;
   margin: auto;
 }
 
-.row{
-  display: flex;
-}
 
-header #logo{ height: 75px;
-margin-top: 15px;}
 
 #nav{
   font-size: 12px;
@@ -57,4 +58,7 @@ header #nav li a{
 .w-33
 { 
   width: 33%;
+}
+.w-66{ 
+  width:66%;
 }
