@@ -29,8 +29,8 @@ header {
 
 
 .container{
-  width: 200px;
-  margin: auto;
+  width: 1500px;
+  margin: 0 auto;
 }
 
 #nav{
@@ -56,7 +56,9 @@ header #nav li a{
 }
 
 
-
+,col{
+  width: 100%;
+}
 .w-33
 { 
   width: 33%;
