@@ -8,7 +8,7 @@ header {
   height: auto;
 }
 
-#logo {
+header #logo {
   box-sizing: border-box;
   border: 1px;
   float: left;
