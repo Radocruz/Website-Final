@@ -7,14 +7,14 @@ header {
   color: rgb(80, 171, 207);
   background-color: rgb(116, 168, 228);
   margin: 0%;
-  width: auto%;
+  width: auto;
   padding-right: 3%;
   padding-left: 3%;
   height: auto;
 }
 
 
- .Logo {
+.Logo {
   box-sizing:border-box;
   border: 5px;
   float: left;
@@ -55,14 +55,10 @@ header #nav li a{
   color: rgb(0, 0, 0);
 }
 
-
-,col{
-  width: 100%;
-}
 .w-33
-{ 
+{
   width: 33%;
 }
-.w-66{ 
+.w-66{
   width:66%;
 }
