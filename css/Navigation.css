@@ -23,15 +23,6 @@ width: auto;
   padding-right: 10px;
 }
 
-/*
-  width: 50%;
-  box-sizing: border-box;
-  float: left;
-  height: 100px;
-  width: 300px;
-  border-color: black;
-  border: 5em;
-*/
 
 .row{
   display: flex;
@@ -49,23 +40,6 @@ width: auto;
   padding: 0px 0 0 0px;
 }
 
-/*
-  padding-right: 3%;
-  padding-left: 3%;
-
-  font-size: 20px;
-  float: right;
-  width: 45%;
-  width: 200px;
-  list-style-type: none;
-  display: flex;
-  flex-direction: row;
-  padding: 20px 20px;
-  text-align: right;
-  list-style-type: none;
-  margin: 0px 0 0 0;
-  padding: 0px;
-  */
 
 header #nav li{
   display: inline-block;
@@ -82,13 +56,18 @@ header #nav li a{
 
 }
 header #nav li a:hover{
-background-color: rgb(134, 134, 134);
-color: rgb(7, 6, 6);
+background-color: rgb(132, 115, 173);
+color: rgb(0, 0, 0);
 }
 
 header #nav li a:active{
-  background-color: rgb(119, 110, 116);
+  background-color: rgb(134, 134, 134);
   color: rgb(0, 0, 0);
+}
+
+#nav #logo{ 
+  display: block;
+  align-items: center;
 }
 
 .col{
