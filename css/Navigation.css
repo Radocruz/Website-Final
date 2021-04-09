@@ -85,13 +85,13 @@ header #nav li a{
 
 }
 header #nav li a:hover{
-background-color: burlywood;
-color: white;
+background-color: rgb(134, 134, 134);
+color: rgb(7, 6, 6);
 }
 
 header #nav li a:active{
   background-color: rgb(119, 110, 116);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .col{
