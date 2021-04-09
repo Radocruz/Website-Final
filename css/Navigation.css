@@ -4,27 +4,42 @@
 
 
 header{
-  color: rgb(31, 55, 65);
   background-color: rgb(48, 86, 129);
-  margin: 0%;
-  width: auto;
-  padding-right: 3%;
-  padding-left: 3%;
-  height: auto;
+ overflow: hidden;
+  display: inline;;
+  padding-right: 20px;
+  padding-left: 20px;
+  float: none;
+
 }
 
+#Logo{ 
+  box-sizing: border-box;
+  float: left;
+height: 100px;
+width: auto;
+ }
 
- #Logo {
+
+ 
   width: 50%;
   box-sizing: border-box;
   float: left;
-  height: 100px;
-  width: 300px;
+  height: 50px;
+  width: 150px;
   border-color: black;
   border: 5em;
-}
+
+
+
+
+
+
+
+
+
 header #logo{
-  display: inline-block
+  display: inline-block;
   padding-top: 50px;
 }
 
@@ -34,7 +49,7 @@ header #logo{
 }
 
 #nav{
-  font-size: 20px;
+  font-size: 18px;
   float: right;
   width: 45%;
   width: 200px;
@@ -57,8 +72,19 @@ header #nav li a{
   padding: 75px 15px;
   color: rgb(0, 0, 0);
   text-transform: uppercase;
+
+}
+header #nav li a:hover{
+background-color: burlywood;
+color: white;
+
+}
+header #nav li a:active{
+  background-color: rgb(119, 110, 116);
+  color: white;
 }
 
+}
 .col{
   width: 100%;
   padding:15px;
