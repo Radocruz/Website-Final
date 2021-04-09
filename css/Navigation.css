@@ -13,8 +13,9 @@ header{
 #Logo{
   box-sizing: border-box;
   float: left;
-height: 100px;
-width: auto;
+  height: 100px;
+  width: auto;
+  flex: 50%;
 }
 
 #Logo {
@@ -26,10 +27,11 @@ width: auto;
 
 .row{
   display: flex;
+  width: auto;
 }
 
 .container{
-  width: 1000px;
+  width: auto;
   margin: 0px 10px;
 }
 
@@ -38,6 +40,7 @@ width: auto;
   text-align: right;
   margin: 0px 0px 0px 0px;
   padding: 0px 0 0 0px;
+  justify-content: flex-end;
 }
 
 
