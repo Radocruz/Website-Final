@@ -15,13 +15,13 @@ header {
 
 
 
- .Logo {
+.Logo {
   display: inline-block;
   box-sizing:border-box;
   border: 5px;
   height: 150px;
   border-color: rgb(100, 48, 93);
-  width: auto;;
+  width: auto;
   padding-bottom: 20px;
   padding-top: 20px;
   width: 45%;
@@ -47,7 +47,7 @@ header {
   padding: 20px;
 }
 
-header #nav { text-align: right ;
+header #nav { text-align: right;
 list-style-type: none;
 margin: 0px;
 padding:0px;}
