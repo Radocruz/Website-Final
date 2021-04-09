@@ -1,20 +1,15 @@
-
-
-
-
-
-header{
+header {
   background-color: rgb(48, 86, 129);
   margin: 0%;
   width: auto;
   height: auto;
 }
 
-body{
+body {
   margin: 0%;
 }
 
-#Logo{
+#Logo {
   box-sizing: border-box;
   float: left;
   height: 100px;
@@ -27,18 +22,17 @@ body{
   padding-right: 10px;
 }
 
-
-.row{
+.row {
   display: flex;
   width: auto;
 }
 
-.container{
+.container {
   width: auto;
   margin: 0px 10px;
 }
 
-#nav{
+#nav {
   list-style-type: none;
   text-align: right;
   margin: 0px 0px 0px 0px;
@@ -46,12 +40,11 @@ body{
   justify-content: flex-end;
 }
 
-
-header #nav li{
+header #nav li {
   display: inline-block;
 }
 
-header #nav li a{
+header #nav li a {
   font-size: 18px;
   padding: 30px 5px;
   color: rgb(0, 0, 0);
@@ -59,33 +52,30 @@ header #nav li a{
   display: inline-block;
   text-decoration: none;
   font-weight: bold;
-
 }
-header #nav li a:hover{
-background-color: rgb(132, 115, 173);
-color: rgb(0, 0, 0);
-}
-
-header #nav li a.active{
+header #nav li a:hover {
   background-color: rgb(132, 115, 173);
   color: rgb(0, 0, 0);
 }
 
-#nav #logo{
+header #nav li a.active {
+  background-color: rgb(132, 115, 173);
+  color: rgb(0, 0, 0);
+}
+
+#nav #logo {
   display: block;
   align-items: center;
 }
 
-.col{
+.col {
   width: 100%;
-  padding:15px;
+  padding: 15px;
 }
 
-.w-33
-{
+.w-33 {
   width: 33%;
 }
-.w-66{
-  width:66%;
+.w-66 {
+  width: 66%;
 }
-
