@@ -3,9 +3,9 @@
 
 
 
-header {
-  color: rgb(80, 171, 207);
-  background-color: rgb(116, 168, 228);
+header{
+  color: rgb(31, 55, 65);
+  background-color: rgb(48, 86, 129);
   margin: 0%;
   width: auto;
   padding-right: 3%;
@@ -14,58 +14,56 @@ header {
 }
 
 
-
- .Logo {
-  display: inline-block;
-  box-sizing:border-box;
-  border: 5px;
-  height: 150px;
-  border-color: rgb(100, 48, 93);
-  width: auto;;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  width: 45%;
-
+ #Logo {
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  height: 100px;
+  width: 300px;
+  border-color: black;
+  border: 5em;
+}
+header #logo{
+  display: inline-block
+  padding-top: 50px;
 }
 
-
-
 .container{
-  width: 1000px;
+  width: 760px;
   margin: 0 auto;
 }
 
 #nav{
-  font-size: 12px;
+  font-size: 20px;
   float: right;
-  width: 55%;
-  width: 150px;
+  width: 45%;
+  width: 200px;
   font-weight: bold;
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  padding: 20px;
+  padding: 20px 20px;
 }
 
 header #nav { text-align: right ;
 list-style-type: none;
-margin: 0px;
-padding:0px;}
+
+}
 
 
 
 header #nav li a{
   display: inline-block;
-  padding: 0px 10px;
+  padding: 75px 15px;
   color: rgb(0, 0, 0);
+  text-transform: uppercase;
 }
-
-
 
 .col{
   width: 100%;
   padding:15px;
 }
+
 .w-33
 {
   width: 33%;
