@@ -233,6 +233,11 @@ background: rgb(180, 174, 166);
 footer{ 
   height: 100%;
   width: 100%;
+  position: fixed;
+  text-align: left;
+  left: 0;
+  right: 0;
+
 
 }
 
@@ -241,10 +246,15 @@ footer{
   width: 300px;
   box-sizing:border-box;
   float: right;
+  clear: left;
 
 }
 
 #worker1{
   height: 300px;
   width: 200px;
+}
+
+#woman_brown{
+  box-sizing: border-box;
 }
