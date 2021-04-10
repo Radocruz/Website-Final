@@ -219,8 +219,16 @@ align-items: center;
    }
 
 
-  .Aboutpage{ 
+  #Aboutpage{ 
     box-sizing: border-box;
     float: left;
-    width: auto 200px;
+    width: 300px;
+  }
+  #Aboutpage h2{
+    text-align: center;
+  }
+
+
+  #team{
+
   }
