@@ -221,28 +221,17 @@ background: rgb(180, 174, 166);
 
 
 
-  #Aboutpage{ 
+  #aboutpage{ 
     box-sizing: border-box;
     float: left;
-    width: 200px;
+    width: 300px;
   }
-  #Aboutpage h2{
+  #aboutpage h2{
     text-align: center;
   }
 
+footer{ 
+  height: 100%;
+  width: 100%;
 
-  #team{
-    width: 100px;
-  }
-
-  .Aboutpage{
-    box-sizing: border-box;
-    float: left;
-    width: auto;
-  }
-
-.icon-box .box{
-box-sizing: border-box;
-display: inline-block;
-align-items: center;
 }
