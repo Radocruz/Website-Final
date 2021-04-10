@@ -173,7 +173,9 @@ color: rgb(15, 27, 22);
   color: rgb(15, 27, 22);
   }
 
-
+.photos{
+  display:inline-flex;
+  }
 
   .contain .box:nth-child(1)  .icon
   {
