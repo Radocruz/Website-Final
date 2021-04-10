@@ -212,11 +212,15 @@ background: rgb(180, 174, 166);
 
 }
 
-   .icon-box .box{ 
+   #icon-box .box{ 
 box-sizing: border-box;
 display: inline-block;
 align-items: center;
    }
 
-   
-  
+
+  .Aboutpage{ 
+    box-sizing: border-box;
+    float: left;
+    width: auto 200px;
+  }
