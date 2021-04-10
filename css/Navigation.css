@@ -165,3 +165,41 @@ color: rgb(15, 27, 22);
   padding: 0;
   color: rgb(15, 27, 22);
   }
+
+
+
+  .contain .box:nth-child(1)  .icon
+  {
+background: rgb(130, 128, 212);
+  }
+  .contain .box:nth-child(1){
+background:rgb(130, 128, 212) ;
+  }
+
+  .contain .box:nth-child(2)  .icon
+  {
+background: darkgreen;
+  }
+  .contain .box:nth-child(2){
+background: darkgreen;
+  }
+
+
+  .contain .box:nth-child(3)  .icon
+  {
+background:darkorchid;
+  }
+  .contain .box:nth-child(3)
+  {
+background: darkorchid;
+  }
+
+
+.contain .box:nth-child(4)  .icon
+  {
+background: darkorange;
+  }
+  .contain .box:nth-child(4)
+  {
+background: darkorange;
+  }
