@@ -59,7 +59,7 @@ header #nav li a:hover {
 }
 
 header #nav li a.active {
-  background-color: rgb(132, 115, 173);
+  background-color:rgb(130, 128, 212);
   color: rgb(0, 0, 0);
 }
 
@@ -91,8 +91,8 @@ header #nav li a.active {
 .contain .box
 {
   position: relative;
-  width: calc(285px - 30px);
-  height: calc(285px - 30px);
+  width: calc(235px - 30px);
+  height: calc(265px - 30px);
   background: rgb(201, 193, 182);
   float: left;
   margin:15px ;
@@ -197,9 +197,25 @@ background: darkorchid;
 
 .contain .box:nth-child(4)  .icon
   {
-background: darkorange;
+background: rgb(180, 174, 166);
   }
   .contain .box:nth-child(4)
   {
-background: darkorange;
+background: rgb(180, 174, 166);
   }
+
+
+
+.homepage-header{
+  text-align: center;
+  float: none;
+
+}
+
+   .icon-box .box{ 
+box-sizing: border-box;
+display: inline-block;
+align-items: center;
+
+   }
+  
