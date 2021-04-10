@@ -5,6 +5,14 @@ header {
   height: auto;
 }
 
+footer{
+  background-color: rgb(48, 86, 129);
+  margin: 0%;
+  width: auto;
+  height: auto;
+  font-size: 12px;
+}
+
 body {
   margin: 0%;
 }
@@ -81,7 +89,7 @@ header #nav li a.active {
 }
 
 .contain
- { 
+{
   position: relative;
   width: auto;
   height: auto;
@@ -98,10 +106,10 @@ header #nav li a.active {
   margin:15px ;
   box-sizing: border-box;
   overflow: hidden;
-  border-radius: 30px; 
+  border-radius: 30px;
 
 }
-.contain .box .icon{ 
+.contain .box .icon{
 position: absolute;
 top: 0;
 left: 0;
@@ -113,7 +121,7 @@ z-index: 1;
 
 }
 
-.contain .box:hover .icon{ 
+.contain .box:hover .icon{
   top: 20px;
   left: calc(50% - 50px);
   width: 100px;
@@ -121,7 +129,7 @@ z-index: 1;
   border-radius: 50%;
 
 }
-.contain .box .icon .material-icons{ 
+.contain .box .icon .material-icons{
 position: absolute;
 top: 32%;
 bottom: 32%;
@@ -134,12 +142,11 @@ color:#fff;
 
 }
 
-.contain .box:hover .icon .material-icons{ 
+.contain .box:hover .icon .material-icons{
   font-size: 75px;
-
 }
 
-.contain .box .content{ 
+.contain .box .content{
 position:absolute;
 top:100%;
 height: calc(100%-100px);
@@ -152,7 +159,7 @@ opacity: 0;
 .contain .box:hover .content{
   top:100px;
   opacity: 1;
- }
+}
 
 .contain .box .content h3{
 margin: 0 0 20;
@@ -212,11 +219,6 @@ background: rgb(180, 174, 166);
 
 }
 
-   #icon-box .box{ 
-box-sizing: border-box;
-display: inline-block;
-align-items: center;
-   }
 
 
   .Aboutpage{ 
@@ -224,3 +226,8 @@ align-items: center;
     float: left;
     width: auto 200px;
   }
+.icon-box .box{
+box-sizing: border-box;
+display: inline-block;
+align-items: center;
+}
