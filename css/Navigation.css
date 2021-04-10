@@ -149,7 +149,7 @@ color:#fff;
 .contain .box .content{
 position:absolute;
 top:100%;
-height: calc(100%-100px);
+height: calc(100%);
 text-align: center;
 padding: 10px;
 box-sizing: border-box;
@@ -162,7 +162,7 @@ opacity: 0;
 }
 
 .contain .box .content h3{
-margin: 0 0 20;
+margin: 0 0 20px;
 padding: 0;
 color: rgb(15, 27, 22);
 }
@@ -235,3 +235,14 @@ background: rgb(180, 174, 166);
     width: 100px;
   }
 
+  .Aboutpage{
+    box-sizing: border-box;
+    float: left;
+    width: auto;
+  }
+
+.icon-box .box{
+box-sizing: border-box;
+display: inline-block;
+align-items: center;
+}
