@@ -173,7 +173,9 @@ color: rgb(15, 27, 22);
   color: rgb(15, 27, 22);
   }
 
-
+.photos{
+  display:inline-flex;
+  }
 
   .contain .box:nth-child(1)  .icon
   {
@@ -221,40 +223,55 @@ background: rgb(180, 174, 166);
 
 
 
-  #aboutpage{ 
+  #Aboutpage{ 
     box-sizing: border-box;
     float: left;
-    width: 300px;
+    width: 200px;
   }
-  #aboutpage h2{
+  #Aboutpage h2{
     text-align: center;
   }
 
-footer{ 
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  text-align: left;
-  left: 0;
-  right: 0;
 
+  #team{
+    width: 100px;
+  }
+
+  .Aboutpage{
+    box-sizing: border-box;
+    float: left;
+    width: auto;
+  }
+
+.icon-box .box{
+box-sizing: border-box;
+display: inline-block;
+align-items: center;
+}
+
+#aboutpage{ 
+  box-sizing: border-box;
+  float: left;
+  width: 300px;
+}
+#aboutpage h2{
+  text-align: center;
+}
+
+footer{
+height: 100%;
+width: 100%;
 
 }
 
 #man{
-  height: 200px;
-  width: 300px;
-  box-sizing:border-box;
-  float: right;
-  clear: left;
-
+height: 200px;
+width: 300px;
+box-sizing:border-box;
+float: right;
 }
 
 #worker1{
-  height: 300px;
-  width: 200px;
-}
-
-#woman_brown{
-  box-sizing: border-box;
+height: 300px;
+width: 200px;
 }
