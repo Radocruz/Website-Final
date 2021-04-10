@@ -2,35 +2,34 @@
 
 <html lang="en">
   <head>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="css/Main_Content.css" />
     <link rel="stylesheet" type="text/css" href="css/Navigation.css" />
     <title>Crofts Accounting</title>
   </head>
 
-<body>
+  <body>
     <header>
-          <div class="container">
-            <div class="row">
-            <div class="col w-33">
-              <img
-              id="Logo"
-              src="images/crofts-accounting-logo.png"
-              alt="Logo"/>
-            </div>
-            <div class="col w-66">
-          <ul id="nav">
-            <li><a class="home" href="Home Page.html">Home</a></li>
-            <li><a class="about" href="About Us.html">About</a></li>
-            <li><a class="locations active" href="Locations.html">Locations</a></li>
-            <li><a class="services" href="">Services</a></li>
-            <li><a class="testimontials" href="">Testimonials</a></li>
-            <li><a class="contacts" href="">Contact</a></li>
-          </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col w-33">
+            <img id="Logo" src="images/crofts-accounting-logo.png" alt="Logo" />
           </div>
+          <div class="col w-66">
+            <ul id="nav">
+              <li><a class="home" href="Home Page.html">Home</a></li>
+              <li><a class="about" href="About Us.html">About</a></li>
+              <li>
+                <a class="locations active" href="Locations.html">Locations</a>
+              </li>
+              <li><a class="services" href="">Services</a></li>
+              <li><a class="testimontials" href="">Testimonials</a></li>
+              <li><a class="contacts" href="">Contact</a></li>
+            </ul>
           </div>
-          </div>
-  </header>
+        </div>
+      </div>
+    </header>
 
     <div id="About">
       <h2>Locations</h2>
@@ -51,7 +50,7 @@ function myMap() {
 var mapProp= {
   center:new google.maps.LatLng(51.508742,-0.120850),
   zoom:5,
-};
+}
 var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 }
 </script>
@@ -59,6 +58,3 @@ var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
 
 </body>
-</html>
-
-
