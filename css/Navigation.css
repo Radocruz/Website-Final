@@ -138,15 +138,24 @@ width: 100%;
 }
 
 #man{
-height: 200px;
-width: 300px;
+display: block;
+height: 250px;
+width: 320px;
 box-sizing:border-box;
 float: right;
 }
 
 #worker1{
-height: 300px;
-width: 200px;
+display: block;
+height: 250px;
+width: 300x;
+}
+
+#woman_brown{
+  display: block;
+  height: 250px;
+  width: 180px;
+  
 }
 
 .photos{
