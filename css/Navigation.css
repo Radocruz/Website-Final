@@ -157,3 +157,17 @@ width: 300x;
 .photos{
   display:inline-flex;
   }
+#About{
+  display: block;
+  width: 800px;
+  text-align: center;
+  float: left;
+  border-spacing: 50px;
+margin-left: 15px;
+  
+}
+#About h2{ 
+  float: left;
+  font-size: 30px;
+  margin-top: 20px;
+}
