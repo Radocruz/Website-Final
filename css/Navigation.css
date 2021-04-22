@@ -86,7 +86,9 @@ header #nav li a.active {
   float: none;
 }
 
-  #Aboutpage{ 
+
+
+  #Aboutpage{
     box-sizing: border-box;
     float: left;
     width: 200px;
