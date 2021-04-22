@@ -181,19 +181,21 @@ width: 300x;
 
 
 
+
+
+
+
 .contain
 {
-
-  position: relative;
+  display: inline-block;
   width: auto;
   height: auto;
   margin: 240px auto;
-  background: #000;
 }
 .contain .box
 {
   position: relative;
-  width: calc(235px - 30px);
+  width: calc(500px - 200px);
   height: calc(265px - 30px);
   background: rgb(201, 193, 182);
   float: left;
