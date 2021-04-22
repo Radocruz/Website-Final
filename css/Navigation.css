@@ -3,6 +3,8 @@ header {
   margin: 0%;
   width: auto;
   height: auto;
+  position:relative;
+  top: 0%;
 }
 
 html, body {
@@ -16,9 +18,6 @@ html, body {
   height: 100px;
   width: auto;
   flex: 50%;
-}
-
-#Logo {
   height: 75px;
   padding-right: 10px;
 }
@@ -81,12 +80,9 @@ header #nav li a.active {
   width: 66%;
 }
 
-
-
 .homepage-header{
   text-align: center;
   float: none;
-
 }
 
   #Aboutpage{ 
@@ -115,7 +111,7 @@ display: inline-block;
 align-items: center;
 }
 
-#aboutpage{ 
+#aboutpage{
   box-sizing: border-box;
   float: left;
   width: 300px;
@@ -125,13 +121,13 @@ align-items: center;
 }
 
 footer{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
   background-color: rgb(48, 86, 129);
-  padding-bottom: 2.5rem;
-  font-size: 12px;
+  font-size: 13px;
+  text-align: center;
+  height: auto;
 }
 
 #man{
