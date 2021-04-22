@@ -160,7 +160,7 @@ width: 300x;
 #About{
   display: block;
   width: auto;
-  text-align: center;
+  text-align: center:
   border-spacing: 50px;
   margin-left: 15px;
   
@@ -174,13 +174,38 @@ width: 300x;
   min-height: 200px;
 }
 
-.column {
-  min-width: none;
-  width: 400px;
-  height: 400px;
-  background-color: green;
-  float: left;
-  min-height: 100px;
-  margin-top: 1%;
-  margin-right: 1%;
+
+
+
+.contain
+{
+
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 240px auto;
+  background: #000;
 }
+.contain .box
+{
+  position: relative;
+  width: calc(235px - 30px);
+  height: calc(265px - 30px);
+  background: rgb(201, 193, 182);
+  float: left;
+  margin:15px ;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 0px;
+}
+.contain .box .content{
+  position:absolute;
+  top:100%;
+  height: calc(100%);
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  opacity: 0;
+  }
+  
