@@ -25,8 +25,6 @@ html, body {
 
 
 
-
-
 .homepage1{
   display: block;
   width: auto;
@@ -38,22 +36,11 @@ html, body {
   float: right;
 }
 
-
 .image.ourteam{
   Width: 400px;
   height: 200px;
 }
 
-
-
-/*
-.container {
-  width: auto;
-  margin: 0px 10px;
-}
-Dont think this is being used
-
-*/
 #nav {
   list-style-type: none;
   text-align: right;
@@ -113,35 +100,23 @@ header #nav li a.active {
   width: 66%;
 }
 
-
 .homepage-header{
   text-align: center;
   float: none;
 }
 
-
-
-
-
 .photos{
   border-left: 100px;
   border-right: 100px;
 }
-  #team{
-    width: 100px;
-  }
-
-
-
+#team{
+  width: 100px;
+}
 .icon-box .box{
 box-sizing: border-box;
 display: inline-block;
 align-items: center;
 }
-
-/*
-width: 200px; #abtpg
-*/
 
 
 #aboutpage{
@@ -156,12 +131,9 @@ width: 200px; #abtpg
   font-size: 30px;
 }
 
-
 #aboutourteam h3{
   text-align: center;
 }
-
-
 
 #AboutServ{
   display: block;
@@ -187,10 +159,8 @@ footer{
   text-align: center;
 }
 
-
-
 #PAIN{
-  min-height: 20vh; /*changes height from footer*/
+  min-height: 20vh;
   overflow: hidden;
   display: block;
   position: relative;
@@ -224,7 +194,6 @@ width: 300x;
 .box_container {
   min-height: 200px;
 }
-
 
 .contain{
   justify-content: center;
@@ -282,7 +251,6 @@ width: 300x;
   }
 
 */
-
 
   .contain .box:nth-child(1) 
   {
