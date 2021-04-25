@@ -50,16 +50,6 @@ header #nav li {
   display: inline-block;
 }
 
-#makeboundary{
-  justify-content: center;
-  display: flex;
-  height: auto;
-  width: 100%;
-  flex-wrap: wrap;
-  background-color:rgb(53, 52, 52);
-  border-radius: 15px;
-  margin: auto;
-}
 
 .main_center{
     margin-left : 10%;
@@ -140,10 +130,13 @@ display: inline-block;
 align-items: center;
 }
 
-.borderteam{
-  border: 5px ;
-  border:orangered
+#borderteam{
+  border-width: 5px;
+  border-style: solid;
+  border-color: orangered;
+  border-radius: 25px;
 }
+
 #aboutpage{
   width: auto;
   font-size: 20px;
