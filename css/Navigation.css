@@ -25,6 +25,34 @@ html, body {
 
 
 
+
+
+.homepage1{
+  display: block;
+  width: auto;
+  float: right;
+}
+.text1{
+  display: block;
+  width: 150px;
+  float: right;
+}
+
+
+.image.ourteam{
+  display: block;
+  margin:auto;
+  Width: 400px;
+  height: 200px;
+}
+
+.abooutourteam.h3{
+  text-align: center;
+}
+
+
+
+
 .container {
   width: auto;
   margin: 0px 10px;
@@ -119,9 +147,11 @@ align-items: center;
   width: auto;
   margin-left: 150px;
   margin-right: 150px;
+  font-size: 20px;
 }
 #aboutpage h2{
   text-align: center;
+  font-size: 30px;
 }
 
 footer{
@@ -134,15 +164,6 @@ footer{
 }
 
 
-
-.homepage1{
-  display: block;
-  width: auto;
-  float: right;
-}
-.text1{
-  width: 200px;
-}
 
 
 
@@ -207,23 +228,23 @@ width: 300x;
 
 .contain
 {
-
+  position: relative;
   display: inline-block;
-  width: auto;
   height: auto;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left:;
+  margin-right:200px;
   width: 100%;
+
 
 }
 
 .contain .box{
   position: relative;
+  float: right;
   width: calc(550px - 200px);
   height: calc(700px - 200px);
   background: rgb(201, 193, 182);
   margin:10px;
-  float: left;
   box-sizing: border-box;
   overflow: hidden;
   border-radius: 0px;
@@ -242,7 +263,7 @@ width: 300x;
 
   .contain .box:nth-child(1) 
   {
-background: rgb(255, 255, 255);
+background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(2) 
   {
@@ -250,7 +271,7 @@ background: rgb(218, 216, 216);
   }
   .contain .box:nth-child(3) 
   {
-background: rgb(255, 255, 255);
+background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(4) 
   {
@@ -258,14 +279,14 @@ background: rgb(218, 216, 216);
   }
   .contain .box:nth-child(5) 
   {
-background: rgb(255, 255, 255);
+background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(6) 
   {
 background: rgb(218, 216, 216);
   }  .contain .box:nth-child(7) 
   {
-background: rgb(255, 255, 255);
+background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(8) 
   {
