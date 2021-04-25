@@ -23,16 +23,19 @@ html, body {
   padding-right: 10px;
 }
 
-
+#homepageimg2{
+  display: block;
+  float:right;
+}
 
 .homepage1{
   display: block;
   width: auto;
   float: right;
 }
-.text1{
+.text1 .p{
   display: block;
-  width: 150px;
+  width: 100px;
   float: right;
 }
 
@@ -128,7 +131,7 @@ align-items: center;
 
 #aboutpage h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 #aboutourteam h3{
@@ -207,7 +210,7 @@ width: 300x;
   width: 100%;
   flex-wrap: wrap;
   background-color:rgb(53, 52, 52);
-  border-radius: 10px;
+  border-radius: 15px;
   margin: auto;
 
 }
@@ -219,8 +222,9 @@ width: 300x;
   margin:10px;
   box-sizing: border-box;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 15px;
   font-size: 20px;
+  border-top: 5px;
 }
 .contain .box .content{
   top:100%;
