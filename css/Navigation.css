@@ -23,10 +23,7 @@ html, body {
   padding-right: 10px;
 }
 
-.row {
-  display: flex;
-  width: auto;
-}
+
 
 .container {
   width: auto;
@@ -97,7 +94,10 @@ header #nav li a.active {
     text-align: center;
   }
 
-
+.photos{
+  border-left: 100px;
+  border-right: 100px;
+}
   #team{
     width: 100px;
   }
@@ -116,8 +116,9 @@ align-items: center;
 
 #aboutpage{
   box-sizing: border-box;
-  float: left;
-  width: 300px;
+  width: auto;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 #aboutpage h2{
   text-align: center;
@@ -131,6 +132,27 @@ footer{
   font-size: 13px;
   text-align: center;
 }
+
+
+
+.homepage1{
+  display: block;
+  width: auto;
+  float: right;
+}
+.text1{
+  width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
 
 #PAIN{
   min-height: 100vh; /* will cover the 100% of viewport */
@@ -168,7 +190,8 @@ width: 300x;
   width: auto;
   text-align: center;
   border-spacing: 50px;
-  margin-left: 15px;
+  margin-left: 140px;
+  margin-right: 140px;
   
 }
 #About h2{ 
@@ -223,7 +246,7 @@ background: rgb(255, 255, 255);
   }
 .contain .box:nth-child(2) 
   {
-background: rgb(199, 199, 199);
+background: rgb(218, 216, 216);
   }
   .contain .box:nth-child(3) 
   {
@@ -231,7 +254,7 @@ background: rgb(255, 255, 255);
   }
 .contain .box:nth-child(4) 
   {
-background: rgb(199, 199, 199);
+background: rgb(218, 216, 216);
   }
   .contain .box:nth-child(5) 
   {
@@ -239,15 +262,13 @@ background: rgb(255, 255, 255);
   }
 .contain .box:nth-child(6) 
   {
-background: rgb(199, 199, 199);
+background: rgb(218, 216, 216);
   }  .contain .box:nth-child(7) 
   {
 background: rgb(255, 255, 255);
   }
 .contain .box:nth-child(8) 
   {
-background: rgb(199, 199, 199);
-  }  .contain .box:nth-child(9) 
-  {
-background: rgb(255, 255, 255);
-  }
+background: rgb(218, 216, 216);
+  }  
+
