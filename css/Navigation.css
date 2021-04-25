@@ -23,23 +23,6 @@ html, body {
   padding-right: 10px;
 }
 
-#homepageimg2{
-  display: block;
-  float:right;
-}
-
-.homepage1{
-  display: block;
-  width: auto;
-  float: right;
-}
-.text1 .p{
-  display: block;
-  width: 100px;
-  float: right;
-}
-
-
 #ourteam{
   display: flex;
   margin: auto;
@@ -104,6 +87,20 @@ header #nav li a.active {
   width: 66%;
 }
 
+
+#homepageimg1 img{
+  display: block;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+
+
 .homepage-header{
   text-align: center;
   float: none;
@@ -122,7 +119,10 @@ display: inline-block;
 align-items: center;
 }
 
-
+.borderteam{
+  border: 5px ;
+  border:orangered
+}
 #aboutpage{
   width: auto;
   font-size: 20px;
@@ -138,21 +138,19 @@ align-items: center;
   text-align: center;
 }
 
-#AboutServ{
+#aboutserv p{
   display: block;
   width: auto;
   text-align: center;
   border-spacing: 50px;
   margin-left: 140px;
   margin-right: 140px;
-  font-size: 25px;
-
-
+  font-size: 22px;
 }
-#AboutServ h2{
+#aboutserv h2{
   text-align: center;
   font-size: 35px;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 footer{
@@ -160,7 +158,7 @@ footer{
   bottom: 0;
   width: 100%;
   background-color: rgb(48, 86, 129);
-  font-size: 13px;
+  font-size: 17px;
   text-align: center;
 }
 
