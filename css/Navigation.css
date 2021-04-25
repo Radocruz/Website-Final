@@ -236,7 +236,7 @@ width: 300x;
 
 .contain .box{
   width: calc(550px - 200px);
-  height: calc(700px - 200px);
+  height: calc(550px - 200px);
   background: rgb(201, 193, 182);
   margin:10px;
   box-sizing: border-box;
