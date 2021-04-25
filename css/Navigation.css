@@ -50,6 +50,17 @@ header #nav li {
   display: inline-block;
 }
 
+#makeboundary{
+  justify-content: center;
+  display: flex;
+  height: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color:rgb(53, 52, 52);
+  border-radius: 15px;
+  margin: auto;
+}
+
 .main_center{
     margin-left : 10%;
     margin-right : 10%;
@@ -170,6 +181,10 @@ footer{
   background-color: rgb(48, 86, 129);
   font-size: 17px;
   text-align: center;
+}
+
+a{
+  color: orange;
 }
 
 #PAIN{
