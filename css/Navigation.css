@@ -1,4 +1,4 @@
-header {
+.navigation_header {
   background-color: rgb(48, 86, 129);
   margin: 0%;
   width: auto;
@@ -40,24 +40,20 @@ html, body {
 
 
 .image.ourteam{
-  display: block;
-  margin:auto;
   Width: 400px;
   height: 200px;
 }
 
-.abooutourteam.h3{
-  text-align: center;
-}
 
 
-
-
+/*
 .container {
   width: auto;
   margin: 0px 10px;
 }
+Dont think this is being used
 
+*/
 #nav {
   list-style-type: none;
   text-align: right;
@@ -68,6 +64,15 @@ html, body {
 
 header #nav li {
   display: inline-block;
+}
+
+.main_center{
+    margin-left : 10%;
+    margin-right : 10%;
+}
+
+.homepageimg{
+  background: transparent;
 }
 
 header #nav li a {
@@ -95,16 +100,19 @@ header #nav li a.active {
 }
 
 .col {
-  width: 100%;
-  padding: 15px;
+  width: auto;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .w-33 {
   width: 33%;
 }
-.w-66 {
+
+.col .w-66{
   width: 66%;
 }
+
 
 .homepage-header{
   text-align: center;
@@ -113,14 +121,7 @@ header #nav li a.active {
 
 
 
-  #Aboutpage{
-    box-sizing: border-box;
-    float: left;
-    width: 200px;
-  }
-  #Aboutpage h2{
-    text-align: center;
-  }
+
 
 .photos{
   border-left: 100px;
@@ -130,11 +131,7 @@ header #nav li a.active {
     width: 100px;
   }
 
-  .Aboutpage{
-    box-sizing: border-box;
-    float: left;
-    width: auto;
-  }
+
 
 .icon-box .box{
 box-sizing: border-box;
@@ -142,16 +139,43 @@ display: inline-block;
 align-items: center;
 }
 
+/*
+width: 200px; #abtpg
+*/
+
+
 #aboutpage{
   box-sizing: border-box;
   width: auto;
-  margin-left: 150px;
-  margin-right: 150px;
   font-size: 20px;
+  float: left;
 }
+
 #aboutpage h2{
   text-align: center;
   font-size: 30px;
+}
+
+
+#aboutourteam h3{
+  text-align: center;
+}
+
+
+
+#AboutServ{
+  display: block;
+  width: auto;
+  text-align: center;
+  border-spacing: 50px;
+  margin-left: 140px;
+  margin-right: 140px;
+
+}
+#AboutServ h2{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
 }
 
 footer{
@@ -165,18 +189,8 @@ footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
 #PAIN{
-  min-height: 100vh; /* will cover the 100% of viewport */
+  min-height: 20vh; /*changes height from footer*/
   overflow: hidden;
   display: block;
   position: relative;
@@ -206,41 +220,21 @@ width: 300x;
 .photos{
   display:inline-flex;
   }
-#About{
-  display: block;
-  width: auto;
-  text-align: center;
-  border-spacing: 50px;
-  margin-left: 140px;
-  margin-right: 140px;
-  
-}
-#About h2{ 
-  text-align: center;
-  font-size: 30px;
-  margin-top: 20px;
-}
+
 .box_container {
   min-height: 200px;
 }
 
 
-
-.contain
-{
-  position: relative;
-  display: inline-block;
+.contain{
+  justify-content: center;
+  display: flex;
   height: auto;
-  margin-left:;
-  margin-right:200px;
   width: 100%;
-
-
+  flex-wrap: wrap;
 }
 
 .contain .box{
-  position: relative;
-  float: right;
   width: calc(550px - 200px);
   height: calc(700px - 200px);
   background: rgb(201, 193, 182);
@@ -258,7 +252,36 @@ width: 300x;
   box-sizing: border-box;
   }
 
+/*
+.contain{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  height: auto;
+  width: auto;
+}
 
+.contain .box{
+  position: relative;
+  width: calc(550px - 200px);
+  height: calc(700px - 200px);
+  background: rgb(201, 193, 182);
+  margin:10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 0px;
+  font-size: 20px;
+}
+.contain .box .content{
+  top:100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  }
+
+*/
 
 
   .contain .box:nth-child(1) 
