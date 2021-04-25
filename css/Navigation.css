@@ -130,23 +130,23 @@ align-items: center;
 }
 
 .borderteam{
-  border: 5px ;
-  border:orangered
+background-color:  black;
+
 }
-#aboutpage{
-  width: auto;
-  font-size: 20px;
-  float: left;
+#aboutpage p{
+  font-size: 22px;
 }
 
 #aboutpage h2{
   text-align: center;
-  font-size: 28px;
+  font-size: 30px;
 }
 
 #aboutourteam h3{
   text-align: center;
+  font-size: 30px;
 }
+
 
 #aboutserv p{
   display: block;
@@ -207,9 +207,6 @@ width: 300x;
 .box_container {
   min-height: 200px;
 }
-
-
-
 
 .contain{
   justify-content: center;
