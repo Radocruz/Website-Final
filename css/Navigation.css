@@ -36,9 +36,10 @@ html, body {
   float: right;
 }
 
-.image .ourteam{
-  Width: 400px;
-  height: 200px;
+
+#ourteam{
+  display: flex;
+  margin: auto;
 }
 
 #nav {
@@ -120,7 +121,6 @@ align-items: center;
 
 
 #aboutpage{
-  box-sizing: border-box;
   width: auto;
   font-size: 20px;
   float: left;
