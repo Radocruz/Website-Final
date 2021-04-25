@@ -206,7 +206,8 @@ width: 300x;
   height: auto;
   width: 100%;
   flex-wrap: wrap;
-  background-color:rgb(51, 51, 51);
+  background-color:rgb(53, 52, 52);
+  border-radius: 10px;
   margin: auto;
 
 }
@@ -218,7 +219,7 @@ width: 300x;
   margin:10px;
   box-sizing: border-box;
   overflow: hidden;
-  border-radius: 0px;
+  border-radius: 10px;
   font-size: 20px;
 }
 .contain .box .content{
