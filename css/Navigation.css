@@ -203,7 +203,7 @@ a{
   justify-content: center;
   height: auto;
   width: 100%;
-  background-color:rgb(201, 193, 182);
+  background-color:rgb(194, 171, 171);
   border-radius: 15px;
   margin: auto;
   border-width: 5px;
@@ -221,7 +221,7 @@ a{
   height: auto;
   width: 100%;
   flex-wrap: wrap;
-  background-color:rgb(53, 52, 52);
+  background-color:rgb(194, 171, 171);
   border-radius: 15px;
   margin: auto;
   border-width: 5px;
@@ -252,11 +252,11 @@ a{
 
   .contain .box:nth-child(1) 
   {
-background: rgb(148, 138, 173);
+background:rgb(148, 138, 173) ;
   }
 .contain .box:nth-child(2) 
   {
-background: rgb(218, 216, 216);
+background: rgb(173, 124, 101);
   }
   .contain .box:nth-child(3) 
   {
@@ -264,7 +264,7 @@ background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(4) 
   {
-background: rgb(218, 216, 216);
+background: rgb(173, 124, 101);
   }
   .contain .box:nth-child(5) 
   {
@@ -272,13 +272,12 @@ background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(6) 
   {
-background: rgb(218, 216, 216);
+background:rgb(173, 124, 101);
   }  .contain .box:nth-child(7) 
   {
 background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(8) 
   {
-background: rgb(218, 216, 216);
-  }  
+background: rgb(173, 124, 101)}
 
