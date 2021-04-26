@@ -33,11 +33,12 @@ html, body {
   padding-right: 10px;
 }
 
+/*
 #ourteam{
   display: flex;
   margin: auto;
 }
-
+*/
 #nav {
   list-style-type: none;
   text-align: right;
@@ -56,9 +57,18 @@ header #nav li {
     margin-right : 10%;
 }
 
-.homepageimg{
-  background: transparent;
+.homepageimg1{
+float: right;
 }
+.homepageimg2{
+  float: left;
+}
+.homepageimg3{
+  float: right;
+}
+
+
+
 
 header #nav li a {
   font-size: 18px;
