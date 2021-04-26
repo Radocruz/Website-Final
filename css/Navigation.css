@@ -57,30 +57,40 @@ header #nav li {
     margin-right : 10%;
 }
 
+
 .homepageimg1{
-  max-width: 40%;
-  height: auto;
+  max-width: 50%;
+  height: 300px;
+  display: block;
+  float: right;
 }
 .homepageimg2{
-  max-width: 40%;
-  height: auto;
+  max-width: 50%;
+  height: 300px;
+  display: block;
+  float: left;
+
 }
 
 .homepageimg3{
-  max-width: 40%;
-  height: auto;
+  max-width: 50%;
+  height: 300px;
+  display: block;
+  float: right;
 }
-
 #homepage1{
-  justify-content: left;
+height: 300px;
+font-size: 24px;
 }
 
 #homepage2{
-  justify-content: right;
+height: 300px;
+font-size: 24px;
 }
 
 #homepage3{
-  justify-content: left;
+height: 300px;
+font-size: 25px;
 }
 
 
