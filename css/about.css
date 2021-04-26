@@ -1,49 +1,21 @@
-
-#aboutpage{
-    width: auto;
-    font-size: 22px;
-    float: left;
+#aboutpage {
+  width: auto;
+  font-size: 22px;
+  float: left;
 }
 
-#aboutpage h2{
-    text-align: center;
-    font-size: 30px;
+#aboutpage h2 {
+  text-align: center;
+  font-size: 30px;
 }
 
-#aboutourteam h3{
-    text-align: center;
-    font-size: 30px;
+#aboutourteam h3 {
+  text-align: center;
+  font-size: 30px;
 }
 
-#ourteam{
-    display: flex;
-    margin: auto;
-    margin-bottom: 15px;
-  }
-  
-#makeborder{
-    justify-content: center;
-    height: auto;
-    width: 100%;
-    background-color:rgb(212, 212, 212);
-    border-radius: 15px;
-    margin: auto;
-    border-width: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 5%;
-  }
-  #borderteam{
-    border-width: 5px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 25px;
-  }
-  .main_center{
-    margin-left : 10%;
-    margin-right : 10%;
-  }
-  
+#ourteam {
+  display: flex;
+  margin: auto;
+  margin-bottom: 15px;
+}
