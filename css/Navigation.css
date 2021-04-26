@@ -33,12 +33,13 @@ html, body {
   padding-right: 10px;
 }
 
-/*
 #ourteam{
   display: flex;
   margin: auto;
+  width: auto;
+  padding-bottom: 10px;
 }
-*/
+
 #nav {
   list-style-type: none;
   text-align: right;
@@ -116,21 +117,9 @@ header #nav li a.active {
   height: 100px;
 }
 
-
-
-
-
-.image1 img{
-  display: block;
-  float: right;
-}
-.image2 img{
-  display: block;
-  float:left;
-}
-
 .homepage-header{
   text-align: center;
+  float: none;
 }
 
 .photos{
@@ -162,7 +151,10 @@ align-items: center;
 #aboutpage h2{
   text-align: center;
   font-size: 30px;
+  margin-left : 10%;
+  margin-right : 10%;
 }
+
 
 #aboutourteam h3{
   text-align: center;
@@ -207,6 +199,29 @@ a{
   padding-bottom: 100px;
 }
 
+#man{
+display: block;
+height: 250px;
+width: 320px;
+box-sizing:border-box;
+float: right;
+}
+
+#worker1{
+display: block;
+height: 250px;
+width: 300x;
+}
+
+#woman_brown{
+  display: block;
+  height: 250px;
+  width: 180px;
+}
+
+.photos{
+  display:inline-flex;
+  }
 
 .box_container {
   min-height: 200px;
