@@ -33,9 +33,9 @@ html, body {
   padding-right: 10px;
 }
 #ourteam{
-  display:flex;
-margin: auto;
-margin-bottom: 15px;
+  display: flex;
+  margin: auto;
+  margin-bottom: 15px;
 }
 
 #nav {
