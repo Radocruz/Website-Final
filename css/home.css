@@ -1,11 +1,11 @@
 .homepageimg1 {
-  max-width: auto;
+  width: auto;
   height: 250px;
   display: block;
   float: right;
 }
 .homepageimg2 {
-  max-width: auto;
+  width: auto;
   height: 250px;
   display: block;
   float: left;
