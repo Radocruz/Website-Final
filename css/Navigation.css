@@ -71,9 +71,12 @@ header #nav li {
   float: left;
 }
 .homepageimg3{
+  display: inline;
   width: auto;
+  float: right;
   height: 250px;
   display: flexbox;
+  
   
 }
 #homepage1{
@@ -90,7 +93,7 @@ display: block;
 
 #homepage3{
 display: block;
-height:auto;
+height: 300px;;
 font-size: 24px;
 text-align: left;
 }
