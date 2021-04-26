@@ -58,13 +58,29 @@ header #nav li {
 }
 
 .homepageimg1{
-float: right;
+  max-width: 40%;
+  height: auto;
 }
 .homepageimg2{
-  float: left;
+  max-width: 40%;
+  height: auto;
 }
+
 .homepageimg3{
-  float: right;
+  max-width: 40%;
+  height: auto;
+}
+
+#homepage1{
+  justify-content: left;
+}
+
+#homepage2{
+  justify-content: right;
+}
+
+#homepage3{
+  justify-content: left;
 }
 
 
