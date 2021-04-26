@@ -32,13 +32,12 @@ html, body {
   height: 75px;
   padding-right: 10px;
 }
-
-/*
 #ourteam{
-  display: flex;
-  margin: auto;
+  display:flex;
+margin: auto;
+margin-bottom: 15px;
 }
-*/
+
 #nav {
   list-style-type: none;
   text-align: right;
@@ -51,6 +50,7 @@ header #nav li {
   display: inline-block;
 }
 
+.p2 {font-size: 25px;}
 
 .main_center{
     margin-left : 10%;
@@ -129,8 +129,13 @@ header #nav li a.active {
   float:left;
 }
 
+#main_center{
+  text-align: center;
+}
+
 .homepage-header{
   text-align: center;
+
 }
 
 .photos{
