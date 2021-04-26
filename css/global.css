@@ -5,12 +5,24 @@
   height: auto;
   position:relative;
   top: 0%;
+
 }
+/*
+font-family: 'Antonio', sans-serif;
+font-family: 'Archivo Narrow', sans-serif;
+font-family: 'Assistant', sans-serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Martel', serif;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Shippori Mincho', serif;
+  */
+
 html, body {
   margin: 0%;
   height: 100%;
   position: relative;
 }
+
 #Logo {
   box-sizing: border-box;
   float: left;
@@ -20,6 +32,7 @@ html, body {
   height: 75px;
   padding-right: 10px;
 }
+
 #nav {
   list-style-type: none;
   text-align: right;
@@ -27,9 +40,22 @@ html, body {
   padding: 0px 0 0 0px;
   justify-content: flex-end;
 }
+
 header #nav li {
   display: inline-block;
 }
+
+.main_center{
+    margin-left : 10%;
+    margin-right : 10%;
+}
+
+
+
+
+
+
+
 header #nav li a {
   font-size: 18px;
   padding: 30px 5px;
@@ -43,25 +69,57 @@ header #nav li a:hover {
   background-color: rgb(132, 115, 173);
   color: rgb(0, 0, 0);
 }
+
 header #nav li a.active {
   background-color:rgb(130, 128, 212);
   color: rgb(0, 0, 0);
 }
+
 #nav #logo {
   display: block;
   align-items: center;
 }
+
 .col {
   width: auto;
   padding-left: 10%;
   padding-right: 10%;
 }
+
 .w-33 {
   width: 33%;
 }
+
 .col .w-66{
   width: 66%;
 }
+
+
+#main_center{
+  text-align: center;
+}
+
+
+.photos{
+  border-left: 100px;
+  border-right: 100px;
+}
+
+.icon-box .box{
+box-sizing: border-box;
+display: inline-block;
+align-items: center;
+}
+
+#borderteam{
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+}
+
+
+
 footer{
   position: absolute;
   bottom: 0;
@@ -71,9 +129,11 @@ footer{
   height: auto;
   text-align: center;
 }
+
 a{
   color: darkorange;
 }
+
 #PAIN{
   min-height: 20vh;
   overflow: hidden;
@@ -83,9 +143,24 @@ a{
 }
 
 
+.box_container {
+  min-height: 200px;
+}
 
 
-
-
-
+#makeborder{
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  background-color:rgb(212, 212, 212);
+  border-radius: 15px;
+  margin: auto;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5%;
+}
 
