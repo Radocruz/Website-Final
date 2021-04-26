@@ -122,7 +122,11 @@ header #nav li a.active {
 
 .image1 img{
   display: block;
-  float:right
+  float: right;
+}
+.image2 img{
+  display: block;
+  float:left;
 }
 
 .homepage-header{
@@ -231,7 +235,7 @@ a{
   height: auto;
   width: 100%;
   flex-wrap: wrap;
-  background-color:rgb(194, 171, 171);
+  background-color:rgb(170, 169, 169);
   border-radius: 15px;
   margin: auto;
   border-width: 5px;
@@ -243,7 +247,7 @@ a{
 .contain .box{
   width: calc(550px - 200px);
   height: calc(550px - 200px);
-  background: rgb(201, 193, 182);
+  background: rgb(170, 169, 169);
   margin:10px;
   box-sizing: border-box;
   overflow: hidden;
@@ -266,7 +270,7 @@ background:rgb(148, 138, 173) ;
   }
 .contain .box:nth-child(2) 
   {
-background: rgb(173, 124, 101);
+background:  rgb(48, 86, 129);
   }
   .contain .box:nth-child(3) 
   {
@@ -274,7 +278,7 @@ background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(4) 
   {
-background: rgb(173, 124, 101);
+background:  rgb(48, 86, 129);
   }
   .contain .box:nth-child(5) 
   {
@@ -282,12 +286,12 @@ background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(6) 
   {
-background:rgb(173, 124, 101);
+background:rgb(48, 86, 129);
   }  .contain .box:nth-child(7) 
   {
 background: rgb(148, 138, 173);
   }
 .contain .box:nth-child(8) 
   {
-background: rgb(173, 124, 101)}
+background: rgb(48, 86, 129)
 
