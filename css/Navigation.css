@@ -156,6 +156,7 @@ align-items: center;
 }
 
 
+
 #aboutserv p{
   display: block;
   width: auto;
@@ -181,7 +182,7 @@ footer{
 }
 
 a{
-  color: orange;
+  color: darkorange;
 }
 
 #PAIN{
@@ -197,6 +198,23 @@ a{
   min-height: 200px;
 }
 
+
+#makeborder{
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  background-color:rgb(201, 193, 182);
+  border-radius: 15px;
+  margin: auto;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5%;
+}
+
 .contain{
   justify-content: center;
   display: flex;
@@ -206,7 +224,10 @@ a{
   background-color:rgb(53, 52, 52);
   border-radius: 15px;
   margin: auto;
-
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
 }
 
 .contain .box{
