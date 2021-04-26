@@ -6,18 +6,25 @@
   position: relative;
   top: 0%;
 }
-/*
-font-family: 'Antonio', sans-serif;
-font-family: 'Archivo Narrow', sans-serif;
-font-family: 'Assistant', sans-serif;
-font-family: 'Cormorant Garamond', serif;
-font-family: 'Martel', serif;
-font-family: 'Noto Serif JP', serif;
-font-family: 'Shippori Mincho', serif;
-  */
 
-html,
-body {
+header{
+  font-family: 'Noto Serif JP', serif;
+}
+
+a {
+  font-family: 'Martel', serif;
+}
+
+p{
+  font-family: 'Martel', serif;
+}
+
+ul{
+  font-family: 'Martel', serif;
+}
+
+
+html body {
   margin: 0%;
   height: 100%;
   position: relative;
@@ -88,10 +95,6 @@ header #nav li a.active {
   width: 66%;
 }
 
-#main_center {
-  text-align: center;
-}
-
 .photos {
   border-left: 100px;
   border-right: 100px;
@@ -101,13 +104,6 @@ header #nav li a.active {
   box-sizing: border-box;
   display: inline-block;
   align-items: center;
-}
-
-#borderteam {
-  border-width: 5px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 25px;
 }
 
 footer {
@@ -122,9 +118,10 @@ footer {
 
 a {
   color: darkorange;
+  font-family: 'Martel', serif;
 }
 
-#PAIN {
+#footer_extension{
   min-height: 20vh;
   overflow: hidden;
   display: block;
