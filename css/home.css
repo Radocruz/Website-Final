@@ -15,21 +15,17 @@
   width: auto;
   float: right;
   height: 250px;
-  display: flexbox;
 }
-
 #homepage1 {
   height: auto;
   font-size: 24px;
   display: block;
 }
-
 #homepage2 {
   height: auto;
   font-size: 24px;
   display: block;
 }
-
 #homepage3 {
   display: block;
   height: 300px;
