@@ -32,11 +32,6 @@ html, body {
   height: 75px;
   padding-right: 10px;
 }
-#ourteam{
-  display: flex;
-  margin: auto;
-  margin-bottom: 15px;
-}
 
 #nav {
   list-style-type: none;
@@ -50,53 +45,13 @@ header #nav li {
   display: inline-block;
 }
 
-.p2 {font-size: 2px;}
-
 .main_center{
     margin-left : 10%;
     margin-right : 10%;
 }
 
 
-.homepageimg1{
-  max-width:auto;
-  height: 250px;
-  display: block;
-  float: right;
-}
-.homepageimg2{
-  max-width: auto;
-  height: 250px;
-  display: block;
-  float: left;
-}
-.homepageimg3{
-  display: inline;
-  width: auto;
-  float: right;
-  height: 250px;
-  display: flexbox;
-  
-  
-}
-#homepage1{
-height: auto;
-font-size: 24px;
-display: block;
-}
 
-#homepage2{
-height: auto;
-font-size: 24px;
-display: block;
-}
-
-#homepage3{
-display: block;
-height: 300px;;
-font-size: 24px;
-text-align: left;
-}
 
 
 
@@ -144,18 +99,12 @@ header #nav li a.active {
   text-align: center;
 }
 
-.homepage-header{
-  text-align: center;
-
-}
 
 .photos{
   border-left: 100px;
   border-right: 100px;
 }
-#team{
-  width: 100px;
-}
+
 .icon-box .box{
 box-sizing: border-box;
 display: inline-block;
@@ -169,38 +118,7 @@ align-items: center;
   border-radius: 25px;
 }
 
-#aboutpage{
-  width: auto;
-  font-size: 22px;
-  float: left;
-}
 
-#aboutpage h2{
-  text-align: center;
-  font-size: 30px;
-}
-
-#aboutourteam h3{
-  text-align: center;
-  font-size: 30px;
-}
-
-
-
-#aboutserv p{
-  display: block;
-  width: auto;
-  text-align: center;
-  border-spacing: 50px;
-  margin-left: 140px;
-  margin-right: 140px;
-  font-size: 22px;
-}
-#aboutserv h2{
-  text-align: center;
-  font-size: 35px;
-  margin-top: 24px;
-}
 
 footer{
   position: absolute;

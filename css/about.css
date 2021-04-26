@@ -1,0 +1,22 @@
+
+#aboutpage{
+    width: auto;
+    font-size: 22px;
+    float: left;
+}
+
+#aboutpage h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+#aboutourteam h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+#ourteam{
+    display: flex;
+    margin: auto;
+    margin-bottom: 15px;
+  }
